@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>注册</title>
+    <include file="Public:head" />
+</head>
+  <body class="login-body">
+
+    <div class="container">
+
+      <form class="form-signin" id="form-register" action="__SELF__">
+        <h2 class="form-signin-heading">注册用户</h2>
+        <div class="login-wrap">
+            <input type="text" name="userName" class="form-control" id="userName" placeholder="用户昵称" autofocus>
+            <input type="text" name="userQQ" class="form-control" id="userQQ" placeholder="QQ" autofocus>
+            <input type="text" name="userEmail" class="form-control" id="userEmail" placeholder="Email" autofocus>
+            <div class="radios text-center">
+                <input id="radio-3" name="userType" type="radio" checked value="0"><label for="radio-3"></label>普通会员
+                <input id="radio-4" name="userType" type="radio" value="1"><label for="radio-4"></label>门店用户{$data}
+            </div>
+            <input type="text" name="loginName" class="form-control" id="loginName" placeholder="用户名" autofocus>
+            <input type="password" name="loginPwd" id="loginPwd" class="form-control" placeholder="密码">
+            <input type="password" name="rePwd" class="form-control" id="rePwd" placeholder="确认密码">
+            <div class="radios text-center">
+                <input id="radio-1" name="userSex" type="radio" checked value="1"><label for="radio-1"></label>男
+                <input id="radio-2" name="userSex" type="radio" value="0"><label for="radio-2"></label>女
+            </div>
+            <input type="text" name="userPhone" class="form-control" id="userPhone" placeholder="手机号">
+            <input type="text" name="code" class="form-control dib w50" id="code" placeholder="验证码">
+            <img src="{:U('Login/Verify')}" onclick="this.src=this.src+'?'+Math.random()" alt="" class="dib codeImg">
+            <button class="btn btn-lg btn-login btn-block" id="register" type="button">注册</button>
+
+            <div class="registration">
+                已有账号去.
+                <a class="" href="{:U('Login/login')}">
+                    登录
+                </a>
+            </div>
+
+        </div>
+
+      </form>
+    </div>
+    <include file="Public:footer" />
+    <script type="text/javascript" src="__URL__/Register/Js/register.js"></script>
+  </body>
+</html>
