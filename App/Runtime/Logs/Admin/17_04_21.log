@@ -1,0 +1,1195 @@
+[ 2017-04-21T00:28:15+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.008001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.008001s ]
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 13 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `v_user` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `v_user` WHERE `loginName` = 'test' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-21T00:28:27+08:00 ] 127.0.0.1 /Login/Verify?0.7931081128772348
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.049003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.049003s ]
+
+[ 2017-04-21T00:28:34+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 13 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `v_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `v_user` WHERE `loginName` = 'test' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `v_user` SET `lastTime`='2017-04-21 00:28:34' WHERE `uid` = 9 [ RunTime:0.0010s ]
+
+[ 2017-04-21T00:28:39+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.152008s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.152008s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.016001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.016001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002001s ]
+
+[ 2017-04-21T00:28:39+08:00 ] 127.0.0.1 /Index/images/avatar-mini.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:28:39+08:00 ] 127.0.0.1 /Index/images/avatar-mini-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:28:39+08:00 ] 127.0.0.1 /Index/images/avatar1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-21T00:28:39+08:00 ] 127.0.0.1 /Index/images/chat-avatar2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:28:39+08:00 ] 127.0.0.1 /Index/images/avatar1_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:30:18+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.033002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.035002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:30:19+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.015001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.015001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-21T00:30:20+08:00 ] 127.0.0.1 /Login/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:31:08+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 13 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `v_user` [ RunTime:0.0240s ]
+SQL: SELECT * FROM `v_user` WHERE `loginName` = 'test' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `v_user` SET `lastTime`='2017-04-21 00:31:07' WHERE `uid` = 9 [ RunTime:0.0000s ]
+SQL: UPDATE `v_user` SET `loginCount`=loginCount+1 WHERE `uid` = 9 [ RunTime:0.0000s ]
+
+[ 2017-04-21T00:31:10+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.021001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.021001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:31:10+08:00 ] 127.0.0.1 /Index/images/chat-avatar2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:31:10+08:00 ] 127.0.0.1 /Index/images/avatar1_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:31:10+08:00 ] 127.0.0.1 /Index/images/avatar-mini-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-21T00:31:10+08:00 ] 127.0.0.1 /Index/images/avatar1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:31:10+08:00 ] 127.0.0.1 /Index/images/avatar-mini.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:31:20+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-21T00:31:29+08:00 ] 127.0.0.1 /Login/Verify?0.6544560482725501
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:31:35+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 13 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `v_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `v_user` WHERE `loginName` = 'test' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `v_user` SET `lastTime`='2017-04-21 00:31:35' WHERE `uid` = 9 [ RunTime:0.0010s ]
+SQL: UPDATE `v_user` SET `loginCount`=loginCount+1 WHERE `uid` = 9 [ RunTime:0.0000s ]
+
+[ 2017-04-21T00:31:37+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.027001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.028001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-04-21T00:31:37+08:00 ] 127.0.0.1 /Index/images/avatar1_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:31:37+08:00 ] 127.0.0.1 /Index/images/avatar-mini.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:31:37+08:00 ] 127.0.0.1 /Index/images/chat-avatar2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-21T00:31:37+08:00 ] 127.0.0.1 /Index/images/avatar1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-21T00:31:37+08:00 ] 127.0.0.1 /Index/images/avatar-mini-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:32:03+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:32:10+08:00 ] 127.0.0.1 /Login/Verify?0.7772622797638178
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001001s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-21T00:32:18+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 13 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `v_user` [ RunTime:0.0040s ]
+SQL: SELECT * FROM `v_user` WHERE `loginName` = 'test' LIMIT 1   [ RunTime:0.0000s ]
+SQL: UPDATE `v_user` SET `lastTime`='2017-04-21 00:32:18' WHERE `uid` = 9 [ RunTime:0.0010s ]
+SQL: UPDATE `v_user` SET `loginCount`=loginCount+1 WHERE `uid` = 9 [ RunTime:0.0010s ]
+
+[ 2017-04-21T00:32:19+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-21T00:32:19+08:00 ] 127.0.0.1 /Index/images/avatar-mini-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-21T00:32:19+08:00 ] 127.0.0.1 /Index/images/avatar-mini.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:32:19+08:00 ] 127.0.0.1 /Index/images/chat-avatar2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006000s ]
+
+[ 2017-04-21T00:32:19+08:00 ] 127.0.0.1 /Index/images/avatar1_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:32:19+08:00 ] 127.0.0.1 /Index/images/avatar1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-21T00:57:11+08:00 ] 127.0.0.1 /
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:57:11+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.086005s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.087005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:57:11+08:00 ] 127.0.0.1 /Login/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-21T00:57:24+08:00 ] 127.0.0.1 /Login/Verify?0.28704122151248157
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-21T00:57:33+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.006001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 13 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `v_user` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `v_user` WHERE `loginName` = 'test' LIMIT 1   [ RunTime:0.0020s ]
+
+[ 2017-04-21T00:57:41+08:00 ] 127.0.0.1 /Login/Verify?0.28704122151248157?0.4627725319005549
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:57:48+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 13 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `v_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `v_user` WHERE `loginName` = 'test' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `v_user` SET `lastTime`='2017-04-21 00:57:48' WHERE `uid` = 9 [ RunTime:0.0010s ]
+SQL: UPDATE `v_user` SET `loginCount`=loginCount+1 WHERE `uid` = 9 [ RunTime:0.0000s ]
+
+[ 2017-04-21T00:57:49+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-21T00:57:49+08:00 ] 127.0.0.1 /Index/images/avatar-mini-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:57:49+08:00 ] 127.0.0.1 /Index/images/avatar1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+
+
+[ 2017-04-21T00:57:49+08:00 ] 127.0.0.1 /Index/images/avatar1_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:57:49+08:00 ] 127.0.0.1 /Index/images/chat-avatar2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:59:00+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.030002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.030002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-21T00:59:02+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.014001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.014001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:59:03+08:00 ] 127.0.0.1 /Login/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-21T00:59:19+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 13 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `v_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `v_user` WHERE `loginName` = 'test' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-21T00:59:55+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T00:59:55+08:00 ] 127.0.0.1 /Login/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005001s ]
+
+[ 2017-04-21T01:00:16+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-21T01:00:17+08:00 ] 127.0.0.1 /Login/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:00:29+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 13 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `v_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `v_user` WHERE `loginName` = 'test' LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2017-04-21T01:20:45+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-21T01:20:45+08:00 ] 127.0.0.1 /Login/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-21T01:21:00+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 13 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `v_user` [ RunTime:0.0060s ]
+SQL: SELECT * FROM `v_user` WHERE `loginName` = 'test' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-21T01:21:23+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-21T01:21:23+08:00 ] 127.0.0.1 /Login/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-21T01:21:36+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 13 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `v_user` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `v_user` WHERE `loginName` = 'test' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-21T01:21:53+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:21:53+08:00 ] 127.0.0.1 /Login/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-21T01:21:58+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010000s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010000s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-21T01:21:58+08:00 ] 127.0.0.1 /Login/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:22:19+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 13 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `v_user` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `v_user` WHERE `loginName` = 'test' LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2017-04-21T01:22:30+08:00 ] 127.0.0.1 /Regster/regster
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Regster
+
+[ 2017-04-21T01:22:31+08:00 ] 127.0.0.1 /favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:22:37+08:00 ] 127.0.0.1 /Regster/regster
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Regster
+
+[ 2017-04-21T01:22:40+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:22:41+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:22:42+08:00 ] 127.0.0.1 /Login/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:22:43+08:00 ] 127.0.0.1 /Regster/regster
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 无法加载控制器:Regster
+
+[ 2017-04-21T01:23:10+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.012001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.012001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002000s ]
+
+[ 2017-04-21T01:23:10+08:00 ] 127.0.0.1 /Login/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:23:12+08:00 ] 127.0.0.1 /Register/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data E:\Vhen\System\App\Runtime\Cache\Admin\5ceecac1f5498ab522d04a88dc38db7d.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.025002s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.025002s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:23:12+08:00 ] 127.0.0.1 /Login/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:23:34+08:00 ] 127.0.0.1 /Register/register?check=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 17 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant regQQ - assumed 'regQQ' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant regEmail - assumed 'regEmail' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 23 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant regPhone - assumed 'regPhone' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `v_user` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `v_user` WHERE `loginName` = 'test1' LIMIT 1   [ RunTime:0.0010s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data E:\Vhen\System\App\Runtime\Cache\Admin\5ceecac1f5498ab522d04a88dc38db7d.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:23:58+08:00 ] 127.0.0.1 /Register/register?check=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 17 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 19 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant regQQ - assumed 'regQQ' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant regEmail - assumed 'regEmail' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 23 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant regPhone - assumed 'regPhone' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `v_user` [ RunTime:0.0090s ]
+SQL: INSERT INTO `v_user` (`userName`,`userQQ`,`userEmail`,`userType`,`loginName`,`loginPwd`,`userSex`,`userPhone`,`createTime`,`lastIP`) VALUES ('vhens','123456','12345@qq.com','0','test1','a8e18348c85774e5538016fb8ec67741','0','13045612320','2017-04-21 01:23:57','127.0.0.1') [ RunTime:0.0030s ]
+
+[ 2017-04-21T01:24:02+08:00 ] 127.0.0.1 /Register/undefined
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+ERR: 非法操作:undefined
+
+[ 2017-04-21T01:27:14+08:00 ] 127.0.0.1 /Register/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001001s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001001s ]
+NOTIC: [8] Undefined variable: data E:\Vhen\System\App\Runtime\Cache\Admin\5ceecac1f5498ab522d04a88dc38db7d.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:27:14+08:00 ] 127.0.0.1 /Login/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001001s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001001s ]
+
+[ 2017-04-21T01:27:46+08:00 ] 127.0.0.1 /Register/register?check=1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 17 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 19 行.
+NOTIC: [8] Use of undefined constant regQQ - assumed 'regQQ' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant regEmail - assumed 'regEmail' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 23 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant regPhone - assumed 'regPhone' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `v_user` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `v_user` WHERE `loginName` = 'work' LIMIT 1   [ RunTime:0.0000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000000s ]
+NOTIC: [8] Undefined variable: data E:\Vhen\System\App\Runtime\Cache\Admin\5ceecac1f5498ab522d04a88dc38db7d.php 第 44 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:28:05+08:00 ] 127.0.0.1 /Register/register?check=2
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 14 行.
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 17 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 19 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant regQQ - assumed 'regQQ' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 20 行.
+NOTIC: [8] Use of undefined constant regEmail - assumed 'regEmail' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 21 行.
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 23 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 24 行.
+NOTIC: [8] Use of undefined constant regPhone - assumed 'regPhone' E:\Vhen\System\App\Admin\Controller\RegisterController.class.php 第 26 行.
+SQL: SHOW COLUMNS FROM `v_user` [ RunTime:0.0060s ]
+SQL: INSERT INTO `v_user` (`userName`,`userQQ`,`userEmail`,`userType`,`loginName`,`loginPwd`,`userSex`,`userPhone`,`createTime`,`lastIP`) VALUES ('work','1234565','12@qq.com','0','work','a8e18348c85774e5538016fb8ec67741','1','13456987203','2017-04-21 01:28:04','127.0.0.1') [ RunTime:0.0010s ]
+
+[ 2017-04-21T01:28:07+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010001s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000000s ]
+
+[ 2017-04-21T01:28:07+08:00 ] 127.0.0.1 /Login/Verify
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:28:36+08:00 ] 127.0.0.1 /Login/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+NOTIC: [8] Use of undefined constant regUserName - assumed 'regUserName' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 13 行.
+NOTIC: [2] preg_match() [<a href='function.preg-match'>function.preg-match</a>]: Compilation failed: PCRE does not support \L, \l, \N{name}, \U, or \u at offset 3 E:\Vhen\System\App\Common\Common\function.php 第 57 行.
+NOTIC: [8] Use of undefined constant getMD5 - assumed 'getMD5' E:\Vhen\System\App\Admin\Controller\LoginController.class.php 第 14 行.
+SQL: SHOW COLUMNS FROM `v_user` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `v_user` WHERE `loginName` = 'test1' LIMIT 1   [ RunTime:0.0010s ]
+SQL: UPDATE `v_user` SET `lastTime`='2017-04-21 01:28:36' WHERE `uid` = 10 [ RunTime:0.0010s ]
+SQL: UPDATE `v_user` SET `loginCount`=loginCount+1 WHERE `uid` = 10 [ RunTime:0.0010s ]
+
+[ 2017-04-21T01:28:37+08:00 ] 127.0.0.1 /Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000000s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001000s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.001000s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.001000s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.047003s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.047003s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.001000s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.001000s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001000s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:28:37+08:00 ] 127.0.0.1 /Index/images/avatar-mini-3.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.001000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:28:38+08:00 ] 127.0.0.1 /Index/images/avatar-mini.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:28:38+08:00 ] 127.0.0.1 /Index/images/chat-avatar2.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:28:38+08:00 ] 127.0.0.1 /Index/images/avatar1.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001000s ]
+
+[ 2017-04-21T01:28:38+08:00 ] 127.0.0.1 /Index/images/avatar1_small.jpg
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000000s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001001s ]
+

@@ -34,7 +34,7 @@
 
     <div class="container">
 
-      <form class="form-signin" action="index.html">
+      <form class="form-signin" id="form-login" action="/Login/login">
         <h2 class="form-signin-heading">
           <img src="/Public/Img/tx.jpg" class="avatar" alt="">
         </h2>
@@ -42,7 +42,7 @@
             <div class="user-login-info">
                 <input type="text" name="loginName" class="form-control" id="loginName" placeholder="账号" autofocus>
                 <input type="password" name="loginPwd" class="form-control" id="loginPwd" placeholder="密码">
-                <input type="text" name="code" class="form-control dib w50" placeholder="验证码">
+                <input type="text" name="code" id="code" class="form-control dib w50" placeholder="验证码">
                 <img src="<?php echo U('Login/Verify');?>" onclick="this.src=this.src+'?'+Math.random()" alt="" class="dib codeImg">
             </div>
             <div class="checkbox">
@@ -52,11 +52,11 @@
 
                 </span>
             </div>
-            <button class="btn btn-lg btn-login btn-block" type="submit">登录</button>
+            <button class="btn btn-lg btn-login btn-block" type="button" id="btn-login">登录</button>
 
             <div class="registration">
                 未注册账号去.
-                <a class="" href="<?php echo U('Regster/regster');?>">
+                <a class="" href="<?php echo U('Register/register');?>">
                     注册
                 </a>
             </div>
@@ -115,6 +115,9 @@
 <!--common script init for all pages-->
 <script src="/Public/Js/scripts.js"></script>
 <!--script for this page-->
+  <script type="text/javascript">
+    var jumpUrl="<?php echo U('Index/index');?>";
+  </script>
 <script type="text/javascript" src="/Template/Default/Admin/Login/Js/login.js"></script>
   </body>
 </html>

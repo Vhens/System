@@ -57,11 +57,19 @@ $(function(){
    $('#loginName').on('blur',function(){
         var userVal=$(this).val();
         var reg=/^[\u4E00-\u9FA5A-Za-z0-9]+$/;
+        var objURL=$('#form-register').attr("action")+'?check=1';
+        console.log(objURL);
         if(userVal==""||userVal==null){
             dialog.tip('用户名不能为空！','#loginName','#52c3dd')
         }else if(!reg.test(userVal)){
              dialog.tip('用户名必须为中文、英文、数字！','#loginName','#52c3dd');
         }
+        $.post(objURL,{loginName:userVal},function(result){
+            console.log(result);
+            if(result.status== 2) {
+                return dialog.tip(result.message,result.selector,'#52c3dd');
+            }
+        },"JSON");
     });
    /**
     * 密码验证
@@ -74,7 +82,7 @@ $(function(){
         var pwdVal=$(this).val();
         var reg=/^[a-zA-Z]\w{5,17}$/;
         if(pwdVal==""||pwdVal==null){
-            dialog.tip('密码不能为空！','#loginPwd','#52c3dd')
+            dialog.tip('密码不能为空！','#loginPwd','#52c3dd');
         }else if(!reg.test(pwdVal)){
              dialog.tip('以字母开头，长度在6~18之间，只能包含字母、数字和下划线！','#loginPwd','#52c3dd');
         }
@@ -125,14 +133,16 @@ $(function(){
     * @return   {[type]}
     */
     $('#register').on('click',function(){
-           var objURL=$('#form-register').attr("action");
-           var parms=$('#form-register').serialize();
-           $.post(objURL,parms,function(result){
-                if(result.status == 0) {
-                    return dialog.error(result.message);
-                }else if(result.status == 1) {
-                    return dialog.error(result.message);
-                }
-            },'JSON');
+        var objURL=$('#form-register').attr("action")+'?check=2',
+        parms=$('#form-register').serialize();
+       $.post(objURL,parms,function(result){
+            if(result.status == 0) {
+                return dialog.error(result.message);
+            }else if(result.status == 1) {
+                return dialog.success(result.message,jumpUrl);
+            }else if(result.status == 2) {
+                return dialog.tip(result.message,result.selector,'#52c3dd');
+            }
+        },'JSON');
     });
 });

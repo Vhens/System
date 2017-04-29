@@ -19,15 +19,17 @@ function p($data){
  * 显示消息
  * @author Vhen
  * @DateTime [2017-04-16T16:42:24+0800]
- * @param    [type]
- * @param    [type]
+ * @param    [status]状态
+ * @param    [message]消息
+ * @param    [selector]选择器
  * @param    array
  * @return   [type]
  */
-function  showMsg($status, $message,$data=array()) {
+function showMsg($status, $message,$selector=null,$data=array()) {
     $reuslt = array(
         'status' => $status,
         'message' => $message,
+        'selector'=>$selector,
         'data' => $data,
     );
 
@@ -43,6 +45,78 @@ function  showMsg($status, $message,$data=array()) {
 function getMd5($password){
     return md5(md5($password.C('MD5_PREFIX')));
 }
+/**
+ * 验证用户
+ * @author Vhen
+ * @DateTime [2017-04-19T00:45:58+0800]
+ * @param    [type]                     $data [description]
+ * @return   [type]                           [description]
+ */
+function regUserName($data){
+    $reg="/^[\u4E00-\u9FA5A-Za-z0-9]+$/";
+    preg_match($reg,$data,$res);
+    return $data;
+}
+/**
+ * [regQQ 验证QQ]
+ * @author Vhen
+ * @DateTime [2017-04-19T00:56:21+0800]
+ * @param    [type]                     $data [description]
+ * @return   [type]                           [description]
+ */
+function regQQ($data){
+    $reg="/^[1-9][0-9]{4,}$/";
+    preg_match($reg,$data,$res);
+    return $data;
+}
+/**
+ * [regEmail 验证邮箱]
+ * @author Vhen
+ * @DateTime [2017-04-19T00:57:37+0800]
+ * @param    [type]                     $data [description]
+ * @return   [type]                           [description]
+ */
+function regEmail($data){
+    $reg="/^\w+([-+.]\w+)*@\w+([-.]\w+)*\.\w+([-.]\w+)*$/";
+    preg_match($reg,$data,$res);
+    return $data;
+}
+/**
+ * [regPwd 验证密码]
+ * @author Vhen
+ * @DateTime [2017-04-19T00:58:55+0800]
+ * @param    [type]                     $data [description]
+ * @return   [type]                           [description]
+ */
+function regPwd($data){
+    $reg="/^[a-zA-Z]\w{5,17}$/";
+    preg_match($reg,$data,$res);
+    return $data;
+}
+/**
+ * [regPhone 验证手机号码]
+ * @author Vhen
+ * @DateTime [2017-04-19T01:00:26+0800]
+ * @param    [type]                     $data [description]
+ * @return   [type]                           [description]
+ */
+function regPhone($data){
+    $reg="/^1[34578]\d{9}$/";
+    preg_match($reg,$data,$res);
+    return $data;
+}
+/**
+ * [check_code 检测验证码]
+ * @author Vhen
+ * @DateTime [2017-04-19T22:40:24+0800]
+ * @param    [type]                     $code [description]
+ * @param    string                     $id   [description]
+ * @return   [type]                           [description]
+ */
+function check_code($code, $id = ""){
+    $verify = new \Think\Verify();
+    return $verify->check($code, $id);
+ }
 /**
  *日期转换成时间戳
  * @author Vhen

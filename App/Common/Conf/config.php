@@ -2,7 +2,7 @@
 return array(
 	//'配置项'=>'配置值'
     'LOAD_EXT_CONFIG'=>'db',
-    'URL_CASE_INSENSITIVE'   => false, // url区分大小写
+    'URL_CASE_INSENSITIVE'   => true, // url区分大小写
     'MODULE_ALLOW_LIST'     =>  array('Home','Admin'),  //允许访问列表
     'MD5_PREFIX'=>'vhen@cdf222',//加密前缀
     'URL_ROUTER_ON' => true, //URL路由
@@ -17,4 +17,8 @@ return array(
         '__FONT__'=>__ROOT__."/".'Public/font-awesome',
         '__URL__'=>__ROOT__."/".'Template/Default/Admin',
     ),
+    'LANG_SWITCH_ON' => true, // 开启语言包功能
+    'LANG_AUTO_DETECT' => true, // 自动侦测语言 开启多语言功能后有效
+    'LANG_LIST' => 'zh-cn,en-us,ja,ko-kr', //必须写可允许的语言列表
+    'VAR_LANGUAGE' => 'lang', // 默认语言切换变量
 );

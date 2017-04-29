@@ -33,7 +33,7 @@
 
     <div class="container">
 
-      <form class="form-signin" id="form-register" action="/Register/register">
+      <form class="form-signin" id="form-register" action="/Register/register?check=1">
         <h2 class="form-signin-heading">注册用户</h2>
         <div class="login-wrap">
             <input type="text" name="userName" class="form-control" id="userName" placeholder="用户昵称" autofocus>
@@ -92,6 +92,9 @@
 <!--common script init for all pages-->
 <script src="/Public/Js/scripts.js"></script>
 <!--script for this page-->
+    <script type="text/javascript">
+        var jumpUrl="<?php echo U('Login/login');?>";
+    </script>
     <script type="text/javascript" src="/Template/Default/Admin/Register/Js/register.js"></script>
   </body>
 </html>

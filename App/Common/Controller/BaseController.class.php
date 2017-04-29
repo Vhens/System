@@ -10,17 +10,9 @@ class BaseController extends Controller{
      * 初始化方法
      */
     public function _initialize(){
-
-    }
-    /**
-    *验证码
-    */
-    public function Verify(){
-        $Verify =     new \Think\Verify();
-        $Verify->fontSize = 15;
-        $Verify->length   = 4;
-        $Verify->useNoise = false;
-        $Verify->entry();
+        if(!I('session.LoginName')){
+             $this->redirect(U('Login/login'));
+        }
     }
     /**
     *空操作方法

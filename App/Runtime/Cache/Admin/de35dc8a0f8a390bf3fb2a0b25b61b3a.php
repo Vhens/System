@@ -236,7 +236,7 @@
             </a>
             <ul class="dropdown-menu extended logout">
                 <li><a href="#"><i class="fa fa-cog"></i> 修改密码</a></li>
-                <li><a href="login.html"><i class="fa fa-key"></i> 登出</a></li>
+                <li><a href="<?php echo U('Login/layout');?>"><i class="fa fa-key"></i> 登出</a></li>
             </ul>
         </li>
         <!-- user login dropdown end -->
@@ -256,7 +256,11 @@
     <div id="sidebar" class="nav-collapse">
         <!-- sidebar menu start-->
         <div class="leftside-navigation">
+
             <ul class="sidebar-menu" id="nav-accordion">
+            <li>
+
+            </li>
                 <li>
                     <a class="active" href="<?php echo U('Index/index');?>">
                         <i class="fa fa-home"></i>
