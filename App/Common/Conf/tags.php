@@ -1,5 +1,5 @@
 <?php
 
-return array(
-    'app_begin'=>array('Behavior\CheckLangBehavior'),
-)
+// return array(
+//     'app_begin'=>array('Behavior\CheckLangBehavior'),
+// )
